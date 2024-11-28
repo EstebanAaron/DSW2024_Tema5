@@ -32,7 +32,7 @@ function enviar_correo_multiples($lista_correos,  $cuerpo,  $asunto = ""){
 		$mail->SMTPSecure = "tls";                 
 		$mail->Host       = "smtp.gmail.com";      
 		$mail->Port       = 587;                   
-		$mail->Username   = "grupodetrabaja@gmail.com";  //usuario de gmail
+		$mail->Username   = "grupodetrabaja1@gmail.com";  //usuario de gmail
 		$mail->Password   = "sovm howq ahwj atrc yyev"; //contraseña de gmail        
 		$mail->SetFrom('noreply@empresafalsa.com', 'Sistema de pedidos');
 		$mail->Subject    = $asunto;
